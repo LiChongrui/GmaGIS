@@ -1,0 +1,41 @@
+{
+    "坐标系工具": {
+        "Item": {
+            "查询": {
+                "Tip": "坐标系查询、创建工具",
+                "PY": "geocrs",
+                "Icon": "world",
+            },
+            "新建": {
+                "Tip": "创建一个自定义坐标系",
+                "Icon":  "newcrs",
+                "Item":{
+                    "新建地理坐标系": {
+                        "Tip": "创建一个自定义的地理坐标系",
+                        "PY": "newgcs",
+                        "Icon": "geogcs",
+                    },
+                    "新建投影坐标系": {
+                        "Tip": "创建一个自定义投影坐标系",
+                        "PY": "newpcs",
+                        "Icon": "projcs",
+                    },
+                }
+            }   
+        }
+    },
+    "打开文件": {
+        "Item": {
+            "打开矢量": {
+                "Tip": "打开一个矢量文件",
+                "PY": "greadvector",
+                "Icon": "read_vector",
+            },
+            "打开栅格": {
+                "Tip": "打开一个栅格文件",
+                "PY": "greadraster",
+                "Icon": "read_raster",
+            }
+        }
+    }
+}

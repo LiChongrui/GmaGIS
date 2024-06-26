@@ -1,0 +1,16 @@
+{
+    "WindowsSize": [550, 250],
+    "StyleSheet": "background-color: white;",
+    "WindowIcon": "./icon/logo.svg",
+    "Style": "Fusion",
+    "Font": ["Microsoft YaHei", 9],
+    "Button": {
+        "Fun": {
+            "Size": [90, 30]
+        },
+        "File": {
+            "Size": [30, 30]
+        }
+    },
+    "StyleParNum":1
+}

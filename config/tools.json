@@ -1,0 +1,23 @@
+{
+    "地图综合": {
+        "path":"./config/tab/base.json",
+    },
+    "地理处理": {
+        "path":"./config/tab/geopr.json",
+    },
+    #"地图制图": {
+    #    "path":"./config/tab/plot.json",
+    #},
+    "气候气象": {
+        "path":"./config/tab/climet.json",
+    },
+    "遥感指数": {
+        "path":"./config/tab/rsvi.json",
+    },
+    "栅格代数": {
+        "path":"./config/tab/math.json",
+    },
+    "帮助": {
+        "path":"./config/tab/help.json",
+    }
+}

@@ -1,0 +1,98 @@
+﻿Name,CHN,ToPY,Type,TypeCode,Values
+InFile,输入文件,str,file,0,
+InFilePRE,输入降水文件,str,file,0,
+InFilePET,输入蒸散文件,str,file,0,
+InFileTMax,输入最高气温文件,str,file,0,
+InFileTMin,输入最低气温文件,str,file,0,
+InFilePRS,输入气压文件,str,file,0,
+InFileWIN,输入风速文件,str,file,0,
+InFileRHU,输入相对湿度文件,str,file,0,
+InFileSSH,输入日照时数文件,str,file,0,
+InFileELE,输入高程（DEM）文件,str,file,0,
+InFileTmean,输入平均气温文件,str,file,0,
+TemplateFile,模版文件,str,file,0,
+InFiles,输入文件列表,str,files,1,
+InPath,输入路径,str,path,2,
+CutLineFile,裁剪矢量,str,file,4,
+OutFile,输出文件,str,file,10,
+OutPath,输出路径,str,path,11,
+ReMethod,重采样方法,str,select,20,Nearest Bilinear Cubic CubicSpline Lanczos Average RMS Mode
+BSMethod,Buishand 方法,str,select,20,Q Range LL-Ration U
+DataType,数据类型,str,select,20,Byte UInt16 Int16 UInt32 Int32 Float32 Float64 CInt16 CInt32 CFloat32 CFloat64
+Algos,表面算法,str,select,20,Horn ZevenbergenThorne
+Distribution,分布类型,str,select,20,Gamma LogLogistic Pearson3
+FitMethod,拟合方法,str,select,20,MLE LMoment LMoment2
+Trigonometric,使用（三角）角度,bool,,20,
+ZeroForFlat,重置平坦区域,bool,,20,
+ComputeEdges,计算边缘数据,bool,,20,
+ColorTable,设置色彩映射表,int,table,40,
+OutProjection,输出坐标系,str,proj,60,
+Resolution,分辨率,float,,80,X Y
+Calibration,校准区间（周期序号）,float,,80,开始 结束
+StartMonth,数据开始年月,int,,80,年 月
+StartDate,数据开始日期,int,,80,年 月 日
+InNoData,输入 NoData,float,,102,
+OutNoData,输出 NoData,float,,102,
+Band,波段序号,int,,104,
+Periodicity,周期（每周期数据量）,int,,104,
+TimeScale,时间尺度,int,,104,
+LayerID,图层 ID,int,,104,
+FeatureID,要素 ID,int,,104,
+ResampleMethod,重采样方法,str,select,20,Nearest Bilinear Cubic CubicSpline Lanczos Average RMS Mode
+Resample,重采样方法,str,select,20,Nearest Bilinear Cubic CubicSpline Lanczos Average RMS Mode
+Force,强制为所有类型数据创建 .ovr 金字塔,bool,,20,
+MINSize,最小文件限制（MB）,float,,102,
+BlockSize,分块大小,int,,104,
+Variable,变量,str,,120,
+ExtAllBands,分解每个变量中的所有维度为单个文件,bool,,20,
+Projection,输出坐标系,str,proj,60,
+Remap,重分类表,int,table,40,
+ReClaMethod,重分类方法,str,select,20,Range Unique
+OutVector,输出矢量,str,file,12,
+FieldName,矢量字段名,str,,120,
+GeomType,几何类型,str,select,20,Point MultiPoint Line MultiLine Polygon MultiPolygon
+Bands,波段列表,list,liststr,140,
+Interval,等值线间隔,float,,102,
+Base,起始位置,float,,102,
+Size,切片尺寸,int,,104,
+Lap,切片间重叠部分大小,int,,104,
+FillValue,边缘填充值,float,,102,
+InPanchromatic,输入全色影像,str,file,0,
+InMultispectral,输入多光谱影像,str,file,0,
+SpatAdjust,坐标系适应方法,str,select,20,Union Intersection NoneWithoutWarning
+NumThreads,CPU 线程数,int,,104,
+BitDepth,比特深度（位深）,int,,104,
+KernelMethod,核运算方法,str,select,20,Mean Max Min Sum Median
+KernelSize,核大小,int,,104,
+ZFactor,Z 因子（垂直比例尺放大）,float,,102,
+Scale,比例（垂直单位与水平单位的比值）,float,,102,
+Azimuth,光源方位角,float,,102,
+Altitude,光源海拔高度,float,,102,
+Combined,混合晕渲,bool,,20,
+UseDegree,使用度表示坡度（否则为百分比）,bool,,20,
+MethodFile,叠加矢量,str,file,0,
+Connector,字段连接符（若定义了多个字段）,str,,120,
+Tolerance,容忍度,float,,102,
+Boundary,四至边界,float,,80,XMin YMin XMax YMax
+Attribute,用以写入栅格值的属性表字段,str,,120,
+NoData,缺失值,float,,102,
+Distance,缓冲距离,float,,102,
+LAT,纬度值,float,,102,
+LineSide,缓冲边,str,select,20,Both Left Right
+Dissolve,融合全部结果,bool,,20,
+Union,联合所有要素,bool,,20,
+GridType,网格类型,str,select,20,Square Triangular Hexagonal
+ExtraFrameSize,边界外扩大小,float,,102,
+MPREFIX,叠加矢量字段标识,str,,120,
+NewGeomType,几何类型,str,select,20,Point MultiPoint Line MultiLine Polygon MultiPolygon
+NewProj,输出坐标系,str,proj,60,
+PreserveTopology,使用 Douglas-Peucker 算法,bool,,20,
+SQLExpr,SQL 表达式,str,,120,
+Expr,【SELECT * WHERE】表达式,str,,120,
+AttributeTable,保留属性表,bool,,20,
+GeometryAttribute,计算几何属性,bool,,20,
+CropToCutline,裁剪到切割线,bool,,20,
+WKTGeometry,保留 WKT 几何体,bool,,20,
+XField,X 字段,str,,120,
+YField,Y 字段,str,,120,
+Proj,坐标系,str,proj,60,

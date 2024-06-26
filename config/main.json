@@ -1,0 +1,10 @@
+{
+    "WindowsSize": [1440, 840],
+    "StyleSheet": "background-color: white;",
+    "Version": "GmaGIS V0.0.0a4",
+    "WindowIcon": "./icon/logo.svg",
+    "Style": "Fusion",
+    "Font": ["Microsoft YaHei", 9],
+    "XNum": 6,
+    "ButtonSize": [123, 45]
+}

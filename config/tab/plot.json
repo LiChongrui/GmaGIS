@@ -1,0 +1,23 @@
+{
+
+    "测试": {
+        "Tip": "",
+        "Icon": "GMALogo",
+        "Item": {
+            "": {
+                "Tip": "",
+                "Icon": "GMALogo",
+                "Item": {
+                    "": {
+                        "PY": "",
+                        "Icon": "",
+                        "Tip": "",
+                        "Batch": ""
+                    }
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,474 @@
+{
+    "栅格处理": {
+        "Tip": "",
+        "Item": {
+            "基础处理": {
+                "Tip": "栅格数据基础处理工具",
+                "Icon": "Raster",
+                "Item": {
+                    "添加色彩映射": {
+                        "PY": "RBAddColorTable",
+                        "Icon": "Color_table",
+                        "Tip": "为栅格数据添加色彩映射表",
+                        "Batch": "0"
+                    },
+                    "波段合成": {
+                        "PY": "RBBandSynthesis",
+                        "Icon": "Band_Synthesis",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "数据类型转换": {
+                        "PY": "RBChangeDataType",
+                        "Icon": "Change_data_type",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "裁剪": {
+                        "PY": "RBClip",
+                        "Icon": "Clip",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "流程化处理": {
+                        "PY": "RBDeformation",
+                        "Icon": "Deformation",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "创建金字塔": {
+                        "PY": "RBGenerateOVR",
+                        "Icon": "Ovr",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "镶嵌": {
+                        "PY": "RBMosaic",
+                        "Icon": "Mosaic",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "正射矫正": {
+                        "PY": "RBOrthophotoCorrection",
+                        "Icon": "Orthophoto",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "重投影": {
+                        "PY": "RBReproject",
+                        "Icon": "Reproject",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "重采样": {
+                        "PY": "RBResample",
+                        "Icon": "Resampl",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "格式转换": {
+                        "PY": "RBToOtherFormat",
+                        "Icon": "To_other_raster",
+                        "Tip": "",
+                        "Batch": "1"
+                    }
+                }
+            },
+            "栅格分解": {
+                "Tip": "",
+                "Icon": "Decomposition",
+                "Item": {
+                    "波段分解": {
+                        "PY": "RDBandDecomposition",
+                        "Icon": "Band_Decomposition",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "影像切片": {
+                        "PY": "RDSplitImage",
+                        "Icon": "SplitImage",
+                        "Tip": "",
+                        "Batch": "0"
+                    }
+                }
+            },
+            "提取分析": {
+                "Tip": "",
+                "Icon": "Raset_extract",
+                "Item": {
+                    "等值线": {
+                        "PY": "REIsopleth",
+                        "Icon": "Isopleth",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "重分类": {
+                        "PY": "REReclassify",
+                        "Icon": "Reclassify",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "转为矢量": {
+                        "PY": "REToVector",
+                        "Icon": "To_vector",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                   "经纬度栅格": {
+                        "PY": "REGenLonLat",
+                        "Icon": "GenLonLat",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                }
+            },
+            "栅格融合": {
+                "Tip": "",
+                "Icon": "Fusion",
+                "Item": {
+                    "Pansharpen融合": {
+                        "PY": "RFPansharpen",
+                        "Icon": "Pansharpen",
+                        "Tip": "",
+                        "Batch": "0"
+                    }
+                }
+            },
+            "滤波运算": {
+                "Tip": "",
+                "Icon": "Filter",
+                "Item": {
+                    "聚合": {
+                        "PY": "RKAggregate",
+                        "Icon": "Aggregate",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "高斯滤波": {
+                        "PY": "RKGaussFilter",
+                        "Icon": "GaussFilter",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "普通滤波": {
+                        "PY": "RKGeneralFilter",
+                        "Icon": "GeneralFilter",
+                        "Tip": "",
+                        "Batch": "0"
+                    }
+                }
+            },
+            "多维处理": {
+                "Tip": "",
+                "Icon": "Multidim",
+                "Item": {
+                    "转为普通栅格": {
+                        "PY": "RMToNORRaster",
+                        "Icon": "ToNORRaster",
+                        "Tip": "",
+                        "Batch": "0"
+                    }
+                }
+            },
+            "栅格表面": {
+                "Tip": "",
+                "Icon": "Surface",
+                "Item": {
+                    "坡向": {
+                        "PY": "RSAspect",
+                        "Icon": "Aspect",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "山体阴影": {
+                        "PY": "RSHillShade",
+                        "Icon": "HillShade",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "粗糙度": {
+                        "PY": "RSRoughness",
+                        "Icon": "Roughness",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "坡度": {
+                        "PY": "RSSlope",
+                        "Icon": "Slope",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "地形位置指数": {
+                        "PY": "RSTPI",
+                        "Icon": "TPI",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "地形耐用度指数": {
+                        "PY": "RSTRI",
+                        "Icon": "TRI",
+                        "Tip": "",
+                        "Batch": "1"
+                    }
+                }
+            }
+        }
+    },
+    "矢量处理": {
+        "Tip": "",
+        "Item": {
+            "基础处理": {
+                "Tip": "",
+                "Icon": "Vector",
+                "Item": {
+                    "几何类型转换": {
+                        "PY": "VBToOtherGeomType",
+                        "Icon": "ToOtherGeomType",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "修复几何": {
+                        "PY": "VBFixGeometry",
+                        "Icon": "FixGeometry",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "重投影": {
+                        "PY": "VBReproject",
+                        "Icon": "Reproject",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "简化": {
+                        "PY": "VBSimplify",
+                        "Icon": "Simplify",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "删除重复点": {
+                        "PY": "VBRemoveRepeatedPoints",
+                        "Icon": "Remove_repeated_points",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "要素折点转点": {
+                        "PY": "VBVerticesToPoints",
+                        "Icon": "VerticesToPoints",
+                        "Tip": "",
+                        "Batch": "1"
+                    }
+                }
+            },
+            "几何分析": {
+                "Tip": "",
+                "Icon": "Geometry",
+                "Item": {
+                    "缓冲区": {
+                        "PY": "VGBuffer",
+                        "Icon": "Buffer",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "生成重心": {
+                        "PY": "VGCentroid",
+                        "Icon": "Centroid",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "集合几何": {
+                        "PY": "VGCollect",
+                        "Icon": "Collect",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "几何凹包": {
+                        "PY": "VGConcaveHull",
+                        "Icon": "ConcaveHull",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "几何凸包": {
+                        "PY": "VGConvexHull",
+                        "Icon": "ConvexHull",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "德劳内三角网": {
+                        "PY": "VGDelaunayTriangulation",
+                        "Icon": "Delaunay",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "融合": {
+                        "PY": "VGDissolve",
+                        "Icon": "Dissolve",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "边框": {
+                        "PY": "VGEnvelope",
+                        "Icon": "Envelope",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "边界": {
+                        "PY": "VGExplode",
+                        "Icon": "Explode",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "外边框": {
+                        "PY": "VGExtent",
+                        "Icon": "Extent",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "外边界": {
+                        "PY": "VGExteriorRing",
+                        "Icon": "ExteriorRing",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "生成网格": {
+                        "PY": "VGGenGrid",
+                        "Icon": "GenGrid",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "提升多部件": {
+                        "PY": "VGMulti",
+                        "Icon": "Multi",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "表面点": {
+                        "PY": "VGPointOnSurface",
+                        "Icon": "PointOnSurface",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "简单化": {
+                        "PY": "VGSingle",
+                        "Icon": "Single",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "泰森多边形": {
+                        "PY": "VGVoronojDiagram",
+                        "Icon": "VoronojDiagram",
+                        "Tip": "",
+                        "Batch": "1"
+                    }
+                }
+            },
+            "提取分析": {
+                "Tip": "",
+                "Icon": "Vector_extract",
+                "Item": {
+                    "SQL查询": {
+                        "PY": "VESQLQuery",
+                        "Icon": "Sql",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "筛选相交": {
+                        "PY": "VESelectIntersect",
+                        "Icon": "SelectIntersect",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "按条件筛选": {
+                        "PY": "VESelectWhere",
+                        "Icon": "SelectWhere",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "转为Excel": {
+                        "PY": "VEToDataFrame",
+                        "Icon": "To_excel",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "转为栅格": {
+                        "PY": "VEToDataSet",
+                        "Icon": "To_raster",
+                        "Tip": "",
+                        "Batch": "0"
+                    }
+                }
+            },
+            "叠加分析": {
+                "Tip": "",
+                "Icon": "Overlay",
+                "Item": {
+                    "裁剪": {
+                        "PY": "VOClip",
+                        "Icon": "Clip_vector",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "擦除": {
+                        "PY": "VOErase",
+                        "Icon": "Erase",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "标识": {
+                        "PY": "VOIdentity",
+                        "Icon": "Identity",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "相交": {
+                        "PY": "VOIntersection",
+                        "Icon": "Intersection",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "交集取反": {
+                        "PY": "VOSymDifference",
+                        "Icon": "SymDifference",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "联合": {
+                        "PY": "VOUnion",
+                        "Icon": "Union",
+                        "Tip": "",
+                        "Batch": "1"
+                    },
+                    "更新": {
+                        "PY": "VOUpdate",
+                        "Icon": "Update",
+                        "Tip": "",
+                        "Batch": "1"
+                    }
+                }
+            },
+            "矢量属性表": {
+                "Tip": "",
+                "Icon": "Table",
+                "Item": {
+                    "汇总统计分析": {
+                        "PY": "VTCalculateSummaryStatistics",
+                        "Icon": "SummaryStatistics",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "XY表转点": {
+                        "PY": "VTXYTableToPoint",
+                        "Icon": "XYTableToPoint",
+                        "Tip": "",
+                        "Batch": "0"
+                    },
+                    "合并属性表": {
+                        "PY": "VTMergeTable",
+                        "Icon": "MergeTable",
+                        "Tip": "",
+                        "Batch": "0"
+                    }
+                }
+            }
+        }
+    }
+}

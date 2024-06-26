@@ -1,0 +1,74 @@
+{
+    "气候气象指数": {
+        "Item": {
+            "标准化 降水蒸散指数": {
+                "Tip": "计算标准化降水蒸散指数（Standardized Precipitation Evapotranspiration Index，SPEI）",
+                "Icon": "SPEI",
+                "PY": "CISPEI"
+            },
+            "标准化 降水指数": {
+                "Tip": "计算标准化降水指数（Standardized Precipitation Index，SPI）",
+                "Icon": "SPI",
+                "PY": "CISPI"
+            },
+            "相对 湿润度指数": {
+                "Tip": "计算相对湿润度指数（Relative Moisture Index，RMI）",
+                "Icon": "RMI",
+                "PY": "CIRMI"
+            },
+            "降水 距平百分率": {
+                "Tip": "计算降水距平百分率指数（Precipitation Anomaly in Percentage，PAP）",
+                "Icon": "PAP",
+                "PY": "CIPAP"
+            },
+            "降水 聚集度指数": {
+                "Tip": "计算降水聚集度指数（Precipitation Concentration Index，PCI）",
+                "Icon": "PCI",
+                "PY": "CIPCI"
+            },
+        }
+    },
+    "气候诊断": {
+        "Item": {
+            "布伊山德 突变点检验": {
+                "Tip": "基于 Buishand (1982) 法对时间序列数据进行突变点检验",
+                "Icon": "Buishand",
+                "PY": "CDBuishand"
+            },
+            "佩蒂特 突变点检验": {
+                "Tip": "基于 Pettitt (1979) 法对时间序列数据进行突变点检验",
+                "Icon": "Pettitt",
+                "PY": "CDPettitt"
+            },
+            "标准正态同质性 突变点检验": {
+                "Tip": "基于 Standard Normal Homogeneity Test (H. Alexandersson 1986) 法对时间序列数据进行突变点检验",
+                "Icon": "SNHT",
+                "PY": "CDSNHT"
+            },
+            "曼-肯德尔 突变检验": {
+                "Tip": "基于 Mann-Kendall 法对时间序列数据进行突变检验",
+                "Icon": "MKMutationTest",
+                "PY": "CDMKMutationTest"
+            },
+        }
+    },
+    "蒸散计算": {
+        "Item": {
+            "哈格 里夫斯法": {
+                "Tip": "基于 哈格里夫斯（Hargreaves 1998）法计算日潜在蒸散量",
+                "Icon": "Hargreaves",
+                "PY": "CEHargreaves"
+            },
+            "桑斯 维特法": {
+                "Tip": "基于 桑斯维特（Thornthwaite 1948）法计算月潜在蒸散量",
+                "Icon": "Thornthwaite",
+                "PY": "CEThornthwaite"
+            },
+            "彭曼 蒙提斯法": {
+                "Tip": "基于 彭曼-蒙提斯法（FAO-56）计算日作物参考蒸散量",
+                "Icon": "PenmanMonteith",
+                "PY": "CEPenmanMonteith"
+            },
+        },
+    },
+}

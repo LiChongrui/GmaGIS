@@ -1,0 +1,11 @@
+{
+    "关于": {
+        "Item": {
+            "关于 GmaGIS":{
+                "Tip": "",
+                "Icon": "about",
+                "PY": "about",
+            }
+        }
+    }
+}
