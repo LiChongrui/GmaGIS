@@ -1,0 +1,30 @@
+# GmaGIS 运行时依赖（Python 3.14）
+#
+# ★★ 2026-09-20 起：**实际用的是 conda-forge 统一栈，不是本文件**。
+#    目的：让 GDAL / PROJ / GEOS 在整个环境里**只有一套** ——
+#    官方 pip wheel 各自把 DLL 私有化并改哈希名（`gdal-<32hex>.dll`），
+#    物理上会同时存在 gdal×2 / proj_9×3 / geos×3 / spatialite×2，且**不能删不能改名**。
+#    建环境的完整命令 + 三个必踩的坑（宿主注入的删除守卫 / prefix 不能含空格 /
+#    PySide6 必须也用 conda 版否则 `DLL load failed while importing QtCore`）
+#    见 `第三方库DLL合并方案-2026-09-20.md` 与技能 `gmagis-conda-geostack`。
+#    装完把 prefix **整体**放进 `GmaGIS\python\` 即可（`python.bat` / `start.bat` 不用改）。
+#
+# 本文件保留作 **pip 回退路线**（要回到官方 wheel 时用）：版本号与 conda 栈**逐一对齐**
+# ⇒ 换回去行为一致。
+#    安装：GmaGIS\python\python.exe -m pip install -r requirements.txt
+#
+# ⚠ conda 路线下**包名不同**（`pyside6` / `libgdal-core` / `proj` / `geos` …），
+#   而下面写的是 PyPI 名 ⇒ `scripts/gen_sbom.py` 会把 `PySide6` / `shiboken6`
+#   报成"待人工确认（元数据没有 License 字段）"。
+#   **人工结论：LGPL-3.0-only**（conda-forge 的 pyside6 与 PySide6-Essentials 是同一份 Qt 绑定）。
+
+PySide6-Essentials==6.11.2      # LGPL-3.0-only（唯一需履行义务的组件）
+rasterio==1.5.1                 # BSD-3（wheel 内捆绑 GDAL/PROJ/GEOS）
+pyogrio==0.13.0                 # MIT
+shapely==2.1.2                  # BSD-3（内含 GEOS，LGPL-2.1，动态链接）
+pyproj==3.8.0                   # MIT
+numpy==2.5.3                    # BSD-3
+scipy==1.18.1                   # BSD-3（2026-11-17 conda 合入）
+matplotlib==3.11.2              # Matplotlib 许可（BSD-3 兼容；wheel 内捆绑 Qhull）
+Pillow==12.3.0                  # MIT-CMU
+rtree==1.4.1                    # MIT（自带 libspatialindex；conda-forge 无 py314 构建 ⇒ 一直走 pip）

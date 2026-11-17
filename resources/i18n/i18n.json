@@ -1,0 +1,14 @@
+{
+  "default": "zh_CN",
+  "fallback": "en_US",
+  "languages": [
+    {
+      "id": "zh_CN",
+      "name": "简体中文"
+    },
+    {
+      "id": "en_US",
+      "name": "English"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "default": "default",
+  "themes": [
+    {
+      "id": "default",
+      "name": "浅色"
+    },
+    {
+      "id": "dark",
+      "name": "深色"
+    },
+    {
+      "id": "high-contrast",
+      "name": "高对比"
+    }
+  ]
+}

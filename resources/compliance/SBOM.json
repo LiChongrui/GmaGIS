@@ -1,0 +1,4407 @@
+{
+  "generated": "2026-09-11 01:26:34",
+  "tool": "scripts/gen_sbom.py",
+  "root": "GmaGIS/",
+  "python": [
+    {
+      "name": "contourpy",
+      "version": "1.4.0",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖（matplotlib）",
+      "homepage": "Homepage, https://github.com/contourpy/contourpy",
+      "license_files": [
+        "contourpy-1.4.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖（matplotlib）",
+      "homepage": "homepage, https://matplotlib.org/cycler/",
+      "license_files": [
+        "cycler-0.12.1.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.68.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖（matplotlib）",
+      "homepage": "http://github.com/fonttools/fonttools",
+      "license_files": [
+        "fonttools-4.68.0.dist-info/licenses/LICENSE",
+        "fonttools-4.68.0.dist-info/licenses/LICENSE.external"
+      ]
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖（matplotlib）",
+      "homepage": "homepage, https://github.com/nucleic/kiwi",
+      "license_files": [
+        "kiwisolver-1.5.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "kind": "python",
+      "license_raw": "Matplotlib",
+      "license": "Matplotlib",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 绘图",
+      "homepage": "Homepage, https://matplotlib.org",
+      "license_files": [
+        "matplotlib-3.11.2.dist-info/LICENSE",
+        "matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+        "matplotlib/mpl-data/fonts/ttf/LICENSE_STIX"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "status": "OK",
+      "detail": "宽松; 宽松; 宽松; 宽松; 宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 数值",
+      "homepage": "homepage, https://numpy.org",
+      "license_files": [
+        "numpy-2.5.3.dist-info/licenses/LICENSE.txt",
+        "numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "numpy/_core/include/numpy/random/LICENSE.txt",
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md"
+      ]
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "kind": "python",
+      "license_raw": "MIT-CMU",
+      "license": "MIT-CMU",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 图像",
+      "homepage": "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "license_files": [
+        "pillow-12.3.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pyogrio",
+      "version": "0.13.0",
+      "kind": "python",
+      "license_raw": "MIT License  Copyright (c) 2020-2024 Brendan C. Ward and pyogrio contributors  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentatio",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 矢量 IO",
+      "homepage": "Home, https://pyogrio.readthedocs.io/",
+      "license_files": [
+        "pyogrio-0.13.0.dist-info/licenses/LICENSE",
+        "pyogrio/gdal_data/LICENSE.TXT"
+      ]
+    },
+    {
+      "name": "pyproj",
+      "version": "3.8.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 坐标变换",
+      "homepage": "https://github.com/pyproj4/pyproj",
+      "license_files": [
+        "pyproj-3.8.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖（matplotlib）",
+      "homepage": "Homepage, https://github.com/dateutil/dateutil",
+      "license_files": [
+        "python_dateutil-4.0.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "rasterio",
+      "version": "1.5.1",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 栅格 IO",
+      "homepage": "Documentation, https://rasterio.readthedocs.io/",
+      "license_files": [
+        "rasterio-1.5.1.dist-info/licenses/LICENSE.txt",
+        "rasterio/gdal_data/LICENSE.TXT"
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 数值",
+      "homepage": "homepage, https://scipy.org/",
+      "license_files": [
+        "scipy-1.18.1.dist-info/LICENSE.txt",
+        "scipy/_lib/_uarray/LICENSE",
+        "scipy/fft/_duccfft/LICENSE.md",
+        "scipy/integrate/LICENSE_DOP",
+        "scipy/spatial/qhull_src/COPYING_QHULL.txt"
+      ]
+    },
+    {
+      "name": "shapely",
+      "version": "2.1.2",
+      "kind": "python",
+      "license_raw": "BSD 3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · 几何运算",
+      "homepage": "Documentation, https://shapely.readthedocs.io/",
+      "license_files": [
+        "shapely-2.1.2.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "shiboken6",
+      "version": "6.11.2",
+      "kind": "python",
+      "license_raw": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "license": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "弱 copyleft/需声明",
+      "direct": true,
+      "dev": false,
+      "role": "运行时 · PySide6 绑定（随 PySide6 引入）",
+      "homepage": "Homepage, https://pyside.org",
+      "license_files": []
+    },
+    {
+      "name": "affine",
+      "version": "3.0.1",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Source, https://github.com/rasterio/affine",
+      "license_files": [
+        "affine-3.0.1.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Documentation, https://www.attrs.org/",
+      "license_files": [
+        "attrs-26.1.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "kind": "python",
+      "license_raw": "MPL-2.0",
+      "license": "MPL-2.0",
+      "status": "NOTICE",
+      "detail": "弱 copyleft/需声明",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "https://github.com/certifi/python-certifi",
+      "license_files": [
+        "certifi-2026.7.22.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Changes, https://click.palletsprojects.com/page/changes/",
+      "license_files": [
+        "click-8.5.0.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "kind": "python",
+      "license_raw": "BSD License",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://github.com/tartley/colorama",
+      "license_files": [
+        "colorama-0.4.6.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://github.com/pytest-dev/iniconfig",
+      "license_files": [
+        "iniconfig-2.3.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "mypy",
+      "version": "1.18.2",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": true,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://www.mypy-lang.org/",
+      "license_files": [
+        "mypy-1.18.2.dist-info/licenses/LICENSE",
+        "mypy/typeshed/LICENSE"
+      ]
+    },
+    {
+      "name": "mypy_extensions",
+      "version": "1.1.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://github.com/python/mypy_extensions",
+      "license_files": [
+        "mypy_extensions-1.1.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "ninja",
+      "version": "1.13.2",
+      "kind": "python",
+      "license_raw": "Apache-2.0",
+      "license": "Apache-2.0",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Bug Tracker, https://github.com/scikit-build/ninja-python-distributions/issues",
+      "license_files": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "kind": "python",
+      "license_raw": "Apache-2.0 OR BSD-2-Clause",
+      "license": "Apache-2.0",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Documentation, https://packaging.pypa.io/",
+      "license_files": [
+        "packaging-26.3.dist-info/licenses/LICENSE",
+        "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1",
+      "kind": "python",
+      "license_raw": "Mozilla Public License 2.0 (MPL 2.0)",
+      "license": "MPL-2.0",
+      "status": "NOTICE",
+      "detail": "弱 copyleft/需声明",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Change Log, https://python-path-specification.readthedocs.io/en/latest/changes.html",
+      "license_files": [
+        "pathspec-1.1.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Changelog, https://pip.pypa.io/en/stable/news/",
+      "license_files": [
+        "pip-26.2.1.dist-info/licenses/LICENSE.txt",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/certifi/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/distro/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/msgpack/COPYING",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.APACHE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.BSD",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/pkg_resources/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/platformdirs/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/pygments/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/pyproject_hooks/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/requests/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/resolvelib/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/rich/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli_w/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/truststore/LICENSE",
+        "pip-26.2.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+        "pip/_vendor/cachecontrol/LICENSE.txt",
+        "pip/_vendor/certifi/LICENSE",
+        "pip/_vendor/distlib/LICENSE.txt",
+        "pip/_vendor/distro/LICENSE",
+        "pip/_vendor/idna/LICENSE.md",
+        "pip/_vendor/msgpack/COPYING",
+        "pip/_vendor/packaging/LICENSE",
+        "pip/_vendor/packaging/LICENSE.APACHE",
+        "pip/_vendor/packaging/LICENSE.BSD",
+        "pip/_vendor/pkg_resources/LICENSE",
+        "pip/_vendor/platformdirs/LICENSE",
+        "pip/_vendor/pygments/LICENSE",
+        "pip/_vendor/pyproject_hooks/LICENSE",
+        "pip/_vendor/requests/LICENSE",
+        "pip/_vendor/resolvelib/LICENSE",
+        "pip/_vendor/rich/LICENSE",
+        "pip/_vendor/tomli/LICENSE",
+        "pip/_vendor/tomli_w/LICENSE",
+        "pip/_vendor/truststore/LICENSE",
+        "pip/_vendor/urllib3/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pip-licenses",
+      "version": "5.0.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": true,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://github.com/raimon49/pip-licenses",
+      "license_files": [
+        "pip_licenses-5.0.0.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "",
+      "license_files": [
+        "pluggy-1.6.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "prettytable",
+      "version": "3.18.0",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Changelog, https://github.com/prettytable/prettytable/releases",
+      "license_files": [
+        "prettytable-3.18.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "kind": "python",
+      "license_raw": "BSD-3-Clause",
+      "license": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "https://github.com/giampaolo/psutil",
+      "license_files": [
+        "psutil-7.2.2.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "kind": "python",
+      "license_raw": "BSD-2-Clause",
+      "license": "BSD-2-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://pygments.org",
+      "license_files": [
+        "pygments-2.21.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+      "license_files": [
+        "pyparsing-3.3.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "PySide6_Essentials",
+      "version": "6.11.2",
+      "kind": "python",
+      "license_raw": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "license": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "弱 copyleft/需声明",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://pyside.org",
+      "license_files": []
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": true,
+      "role": "间接依赖",
+      "homepage": "Changelog, https://docs.pytest.org/en/stable/changelog.html",
+      "license_files": [
+        "pytest-9.1.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pytest-qt",
+      "version": "4.4.0",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": true,
+      "role": "间接依赖",
+      "homepage": "http://github.com/pytest-dev/pytest-qt",
+      "license_files": [
+        "pytest_qt-4.4.0.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "rtree",
+      "version": "1.4.1",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Documentation, https://rtree.readthedocs.io",
+      "license_files": [
+        "rtree-1.4.1.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ruff",
+      "version": "0.14.4",
+      "kind": "python",
+      "license_raw": "MIT License",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": true,
+      "role": "间接依赖",
+      "homepage": "https://docs.astral.sh/ruff",
+      "license_files": [
+        "ruff-0.14.4.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "sip",
+      "version": "6.16.1",
+      "kind": "python",
+      "license_raw": "BSD-2-Clause",
+      "license": "BSD-2-Clause",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "homepage, https://github.com/Python-SIP/sip",
+      "license_files": [
+        "sip-6.16.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "tomli",
+      "version": "2.4.1",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://github.com/hukkin/tomli",
+      "license_files": [
+        "tomli-2.4.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "kind": "python",
+      "license_raw": "PSF-2.0",
+      "license": "PSF-2.0",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "license_files": [
+        "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "kind": "python",
+      "license_raw": "Apache-2.0",
+      "license": "Apache-2.0",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖（matplotlib）",
+      "homepage": "https://github.com/python/tzdata",
+      "license_files": [
+        "tzdata-2026.6.dist-info/licenses/LICENSE",
+        "tzdata-2026.6.dist-info/licenses/licenses/LICENSE_APACHE"
+      ]
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.8.3",
+      "kind": "python",
+      "license_raw": "MIT",
+      "license": "MIT",
+      "status": "OK",
+      "detail": "宽松",
+      "direct": false,
+      "dev": false,
+      "role": "间接依赖",
+      "homepage": "Homepage, https://github.com/jquast/wcwidth",
+      "license_files": [
+        "wcwidth-0.8.3.dist-info/licenses/LICENSE"
+      ]
+    }
+  ],
+  "native": [
+    {
+      "name": "Expat",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/libexpat-6d13c47b98550978af0962920611301e.dll",
+        "python/Lib/site-packages/rasterio.libs/libexpat-e168c64b7acc8714ee3d3f81efeca9e3.dll"
+      ]
+    },
+    {
+      "name": "FreeXL",
+      "version": "",
+      "kind": "native",
+      "license": "MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later",
+      "license_raw": "MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/freexl-1-a6147e8a0874d58341c5006b93489b0e.dll"
+      ]
+    },
+    {
+      "name": "GDAL/OGR",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/gdal-9fa6a5301668010b1474299a888c26da.dll",
+        "python/Lib/site-packages/rasterio.libs/gdal-a72f407b3502e5101c71e3af450342da.dll"
+      ]
+    },
+    {
+      "name": "GEOS",
+      "version": "",
+      "kind": "native",
+      "license": "LGPL-2.1-or-later",
+      "license_raw": "LGPL-2.1-or-later",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": true,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/geos-bda2e4a35fc87c3cb436d3add2953ffb.dll",
+        "python/Lib/site-packages/rasterio.libs/geos-dabffc25e549acf063a2123b00fd7bc8.dll",
+        "python/Lib/site-packages/shapely.libs/geos-ae6efa0782962b98e358f10ea539ae5f.dll"
+      ]
+    },
+    {
+      "name": "GEOS C API",
+      "version": "",
+      "kind": "native",
+      "license": "LGPL-2.1-or-later",
+      "license_raw": "LGPL-2.1-or-later",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": true,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/geos_c-05968ceb6a9aade9961ca529050ada59.dll",
+        "python/Lib/site-packages/rasterio.libs/geos_c-b603f900266fc5dba59f4a09b91d5fcd.dll",
+        "python/Lib/site-packages/shapely.libs/geos_c-072b7a9224d16d3e4ab2395bb855b2d3.dll"
+      ]
+    },
+    {
+      "name": "giflib",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/gif-050ff31eeba2013b9f5f494427b04cb9.dll"
+      ]
+    },
+    {
+      "name": "HDF5",
+      "version": "",
+      "kind": "native",
+      "license": "HDF5",
+      "license_raw": "HDF5",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/hdf5-74affa4514d9e5191c173951be609be7.dll"
+      ]
+    },
+    {
+      "name": "HDF5 High-Level",
+      "version": "",
+      "kind": "native",
+      "license": "HDF5",
+      "license_raw": "HDF5",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/hdf5_hl-7e7cde3a1641d66bcbe74a52f91f0a3c.dll"
+      ]
+    },
+    {
+      "name": "json-c",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/json-c-23e40dddc89c5be9375747232d8f35fb.dll",
+        "python/Lib/site-packages/rasterio.libs/json-c-db85b2a41d4cff92fae29093033c6d22.dll"
+      ]
+    },
+    {
+      "name": "LERC",
+      "version": "",
+      "kind": "native",
+      "license": "Apache-2.0",
+      "license_raw": "Apache-2.0",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/Lerc-c10f5743f8921c17b85576614838c379.dll",
+        "python/Lib/site-packages/rasterio.libs/Lerc-846a957ae26018a3d91d4f25cf5facac.dll"
+      ]
+    },
+    {
+      "name": "libcurl",
+      "version": "",
+      "kind": "native",
+      "license": "curl",
+      "license_raw": "curl",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/libcurl-c3697df4ff70334a5320d2218a143c97.dll",
+        "python/Lib/site-packages/pyproj.libs/libcurl-f49442d4be7d953952a0509cdd4501fa.dll",
+        "python/Lib/site-packages/rasterio.libs/libcurl-8cfe556d40799b77222986b4ec41c757.dll"
+      ]
+    },
+    {
+      "name": "libgeotiff",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/geotiff-0f08c58b982b142224f2707f8e49d843.dll",
+        "python/Lib/site-packages/rasterio.libs/geotiff-0f6492f511ef1967bf1662225ca58036.dll"
+      ]
+    },
+    {
+      "name": "libiconv",
+      "version": "",
+      "kind": "native",
+      "license": "LGPL-2.1-or-later",
+      "license_raw": "LGPL-2.1-or-later",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": true,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/iconv-2-ec6407dc8b081563527a51db783233cc.dll",
+        "python/Lib/site-packages/rasterio.libs/iconv-2-9fe1fe98747f36218282b14bd67668f4.dll"
+      ]
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/jpeg62-c79c71e9654a1a62b02167aa47efcfc1.dll",
+        "python/Lib/site-packages/pyproj.libs/jpeg62-971fedc88cb0e86c3ad978ae1b7646db.dll",
+        "python/Lib/site-packages/rasterio.libs/jpeg62-a54a03145fbeae6eca2bf1276664dfc4.dll"
+      ]
+    },
+    {
+      "name": "libpng",
+      "version": "",
+      "kind": "native",
+      "license": "libpng-2.0",
+      "license_raw": "libpng-2.0",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/libpng16-51f4f376c28be4f3fee815c154d2d249.dll",
+        "python/Lib/site-packages/rasterio.libs/libpng16-88a1d225d50923c0e98af680c0c3bee2.dll"
+      ]
+    },
+    {
+      "name": "libpq (PostgreSQL)",
+      "version": "",
+      "kind": "native",
+      "license": "PostgreSQL",
+      "license_raw": "PostgreSQL",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/libpq-8d86892b6cf7318038d981d5d0e51e99.dll"
+      ]
+    },
+    {
+      "name": "libsharpyuv (WebP)",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/libsharpyuv-b2fe3747d3a41e51017bbca7ed3e2567.dll"
+      ]
+    },
+    {
+      "name": "libtiff",
+      "version": "",
+      "kind": "native",
+      "license": "libtiff",
+      "license_raw": "libtiff",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/tiff-bb811e0d8708ee7a0f2bdfdea67ef0bc.dll",
+        "python/Lib/site-packages/pyproj.libs/tiff-69dcdf91c822b00d23e8dbf49655fe78.dll",
+        "python/Lib/site-packages/rasterio.libs/tiff-b1528085f399cbd37298e136b14467fb.dll"
+      ]
+    },
+    {
+      "name": "libwebp",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/libwebp-0c13d30ef06480ba72a456d0da9288e3.dll"
+      ]
+    },
+    {
+      "name": "libxml2",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/libxml2-3983679bc2aba685351f42b9f58ab67c.dll",
+        "python/Lib/site-packages/rasterio.libs/libxml2-3d081b12752e18187764ef8f077e6a84.dll"
+      ]
+    },
+    {
+      "name": "Mesa 软件 OpenGL (opengl32sw.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "运行时 · 软件 OpenGL 回退（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/opengl32sw.dll"
+      ]
+    },
+    {
+      "name": "minizip",
+      "version": "",
+      "kind": "native",
+      "license": "Zlib",
+      "license_raw": "Zlib",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/minizip-09a8b95a475f7786cff4765c06464595.dll",
+        "python/Lib/site-packages/rasterio.libs/minizip-35c542de9a341ea2f0d06a150435bb59.dll"
+      ]
+    },
+    {
+      "name": "MSVC C++ 运行库",
+      "version": "",
+      "kind": "native",
+      "license": "LicenseRef-MSVC-Runtime",
+      "license_raw": "LicenseRef-MSVC-Runtime",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/concrt140.dll",
+        "python/Lib/site-packages/PySide6/msvcp140.dll",
+        "python/Lib/site-packages/PySide6/msvcp140_1.dll",
+        "python/Lib/site-packages/PySide6/msvcp140_2.dll",
+        "python/Lib/site-packages/PySide6/msvcp140_codecvt_ids.dll",
+        "python/Lib/site-packages/PySide6/vcamp140.dll",
+        "python/Lib/site-packages/PySide6/vccorlib140.dll",
+        "python/Lib/site-packages/PySide6/vcomp140.dll",
+        "python/Lib/site-packages/PySide6/vcruntime140.dll",
+        "python/Lib/site-packages/PySide6/vcruntime140_1.dll",
+        "python/Lib/site-packages/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+        "python/Lib/site-packages/pyogrio.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+        "python/Lib/site-packages/pyproj.libs/msvcp140-7c26614e1d733892c2deac7e245ce115.dll",
+        "python/Lib/site-packages/rasterio.libs/msvcp140-20076bc0e3fcb1842cab77dfe8ef816b.dll",
+        "python/Lib/site-packages/shapely.libs/msvcp140-90bc62d4947a5878f1dc1057312f3be2.dll"
+      ]
+    },
+    {
+      "name": "netCDF",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/netcdf-2d9517c9391637a9e04f895fefbd5623.dll"
+      ]
+    },
+    {
+      "name": "OpenBLAS (SciPy 构建)",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll"
+      ]
+    },
+    {
+      "name": "OpenJPEG",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-2-Clause",
+      "license_raw": "BSD-2-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/openjp2-379ffd8fb77dfeb6ad1d727d2e9b2a5c.dll"
+      ]
+    },
+    {
+      "name": "OpenSSL libcrypto",
+      "version": "",
+      "kind": "native",
+      "license": "Apache-2.0",
+      "license_raw": "Apache-2.0",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/libcrypto-3-x64-7b8fb6ee347e3e4ee5e92cf5f7691e7d.dll",
+        "python/Lib/site-packages/rasterio.libs/libcrypto-3-x64-926c52527e18e976e9f4b061ee56a07c.dll"
+      ]
+    },
+    {
+      "name": "OpenSSL libssl",
+      "version": "",
+      "kind": "native",
+      "license": "Apache-2.0",
+      "license_raw": "Apache-2.0",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/libssl-3-x64-ce0f27858f99fd8e7c41e6e39bd2f7b6.dll",
+        "python/Lib/site-packages/rasterio.libs/libssl-3-x64-f439b894ec54b96cf5d4b32da59b500a.dll"
+      ]
+    },
+    {
+      "name": "PCRE2",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/pcre2-8-d3408fc88459d66d37153e43d4fcd1ad.dll"
+      ]
+    },
+    {
+      "name": "PROJ 9",
+      "version": "",
+      "kind": "native",
+      "license": "MIT",
+      "license_raw": "MIT",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/proj_9-6329b13d4c90abfce1c9dc07fa75284e.dll",
+        "python/Lib/site-packages/pyproj.libs/proj_9-7e5618bddacc5af688a84f477cf114c3.dll",
+        "python/Lib/site-packages/rasterio.libs/proj_9-54131f78a93c8acbc9caf6d2f69aeca5.dll"
+      ]
+    },
+    {
+      "name": "PySide6 绑定模块 (pyside6.abi3.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Python 绑定（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/pyside6.abi3.dll"
+      ]
+    },
+    {
+      "name": "PySide6 绑定模块 (pyside6qml.abi3.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Python 绑定（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/pyside6qml.abi3.dll"
+      ]
+    },
+    {
+      "name": "Qhull",
+      "version": "",
+      "kind": "native",
+      "license": "Qhull",
+      "license_raw": "Qhull",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/qhull_r-a82503bf44e8253baabe69c074cb5ce3.dll",
+        "python/Lib/site-packages/rasterio.libs/qhull_r-af0dc0818a078664bb668a56e8d62ca2.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Concurrent.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Concurrent.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Core.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Core.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6DBus.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6DBus.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Designer.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Designer.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6DesignerComponents.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6DesignerComponents.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Gui.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Gui.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Help.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Help.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsAnimation.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsAnimation.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsFolderListModel.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsFolderListModel.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsPlatform.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsPlatform.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsQmlModels.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsQmlModels.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsSettings.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsSettings.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsSharedImage.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsSharedImage.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsStyleKit.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsStyleKit.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsStyleKitImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsStyleKitImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsSynchronizer.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsSynchronizer.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LabsWavefrontMesh.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LabsWavefrontMesh.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Lottie.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Lottie.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LottieVectorImageGenerator.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LottieVectorImageGenerator.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6LottieVectorImageHelpers.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6LottieVectorImageHelpers.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Network.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Network.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6OpenGL.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6OpenGL.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6OpenGLWidgets.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6OpenGLWidgets.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6PrintSupport.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6PrintSupport.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Qml.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Qml.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlCompiler.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlCompiler.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlCore.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlCore.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlLocalStorage.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlLocalStorage.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlMeta.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlMeta.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlModels.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlModels.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlNetwork.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlNetwork.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlWorkerScript.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlWorkerScript.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QmlXmlListModel.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QmlXmlListModel.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Quick.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Quick.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2Basic.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2Basic.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2BasicStyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2BasicStyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2FluentWinUI3StyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2FluentWinUI3StyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2Fusion.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2Fusion.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2FusionStyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2FusionStyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2Imagine.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2Imagine.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2ImagineStyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2ImagineStyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2Impl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2Impl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2Material.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2Material.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2MaterialStyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2MaterialStyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2Universal.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2Universal.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2UniversalStyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2UniversalStyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickControls2WindowsStyleImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickControls2WindowsStyleImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickDialogs2.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickDialogs2.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickDialogs2QuickImpl.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickDialogs2QuickImpl.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickDialogs2Utils.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickDialogs2Utils.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickEffects.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickEffects.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickLayouts.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickLayouts.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickParticles.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickParticles.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickShapes.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickShapes.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickShapesDesignHelpers.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickShapesDesignHelpers.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickTemplates2.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickTemplates2.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickTest.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickTest.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickTimeline.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickTimeline.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickTimelineBlendTrees.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickTimelineBlendTrees.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickVectorImage.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickVectorImage.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickVectorImageGenerator.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickVectorImageGenerator.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickVectorImageHelpers.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickVectorImageHelpers.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6QuickWidgets.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6QuickWidgets.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Sql.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Sql.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Svg.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Svg.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6SvgWidgets.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6SvgWidgets.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Test.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Test.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6UiTools.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6UiTools.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Widgets.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Widgets.dll"
+      ]
+    },
+    {
+      "name": "Qt6 (Qt6Xml.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 原生库（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/Qt6Xml.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (effectsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Effects/effectsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (labsanimationplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/animation/labsanimationplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (labsmodelsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/qmlmodels/labsmodelsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (labsplatformplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/platform/labsplatformplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (labsstylekitimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/StyleKit/impl/labsstylekitimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (labsstylekitplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/StyleKit/labsstylekitplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (labssynchronizerplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/synchronizer/labssynchronizerplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (modelsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQml/Models/modelsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (particlesplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Particles/particlesplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (pdfquickplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Pdf/pdfquickplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlfolderlistmodelplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/folderlistmodel/qmlfolderlistmodelplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmllocalstorageplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/LocalStorage/qmllocalstorageplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlnetworkplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtNetwork/qmlnetworkplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQml/qmlplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlsettingsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/settings/qmlsettingsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlshapesplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Shapes/qmlshapesplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlwavefrontmeshplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/wavefrontmesh/qmlwavefrontmeshplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qmlxmllistmodelplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQml/XmlListModel/qmlxmllistmodelplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qquicklayoutsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Layouts/qquicklayoutsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qquickvectorimagehelpersplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VectorImage/Helpers/qquickvectorimagehelpersplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qquickvectorimageplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VectorImage/qquickvectorimageplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtqmlcoreplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtCore/qtqmlcoreplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtqmlstatemachineplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQml/StateMachine/qtqmlstatemachineplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquick2plugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/qtquick2plugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2basicstyleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/impl/qtquickcontrols2basicstyleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2basicstyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qtquickcontrols2basicstyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2fluentwinui3styleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/FluentWinUI3/impl/qtquickcontrols2fluentwinui3styleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2fluentwinui3styleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/FluentWinUI3/qtquickcontrols2fluentwinui3styleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2fusionstyleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Fusion/impl/qtquickcontrols2fusionstyleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2fusionstyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Fusion/qtquickcontrols2fusionstyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2imaginestyleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Imagine/impl/qtquickcontrols2imaginestyleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2imaginestyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Imagine/qtquickcontrols2imaginestyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2implplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/impl/qtquickcontrols2implplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2materialstyleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Material/impl/qtquickcontrols2materialstyleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2materialstyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Material/qtquickcontrols2materialstyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2nativestyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/NativeStyle/qtquickcontrols2nativestyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2plugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/qtquickcontrols2plugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2universalstyleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Universal/impl/qtquickcontrols2universalstyleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2universalstyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Universal/qtquickcontrols2universalstyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2windowsstyleimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Windows/impl/qtquickcontrols2windowsstyleimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickcontrols2windowsstyleplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Controls/Windows/qtquickcontrols2windowsstyleplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickdialogs2quickimplplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Dialogs/quickimpl/qtquickdialogs2quickimplplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickdialogsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Dialogs/qtquickdialogsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickscene2dplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Scene2D/qtquickscene2dplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickscene3dplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Scene3D/qtquickscene3dplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquickshapesdesignhelpersplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Shapes/DesignHelpers/qtquickshapesdesignhelpersplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquicktemplates2plugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Templates/qtquicktemplates2plugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquicktimelineblendtreesplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Timeline/BlendTrees/qtquicktimelineblendtreesplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtquicktimelineplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Timeline/qtquicktimelineplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbbuiltinstylesplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Styles/Builtin/qtvkbbuiltinstylesplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbcomponentsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Components/qtvkbcomponentsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbhangulplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Plugins/Hangul/qtvkbhangulplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkblayoutsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Layouts/qtvkblayoutsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbopenwnnplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Plugins/OpenWNN/qtvkbopenwnnplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbpinyinplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Plugins/Pinyin/qtvkbpinyinplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/qtvkbplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbpluginsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Plugins/qtvkbpluginsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbsettingsplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Settings/qtvkbsettingsplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbstylesplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Styles/qtvkbstylesplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbtcimeplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Plugins/TCIme/qtvkbtcimeplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (qtvkbthaiplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Plugins/Thai/qtvkbthaiplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (quicktestplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtTest/quicktestplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (quicktoolingplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/tooling/quicktoolingplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (quickwindowplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/Window/quickwindowplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (sharedimageplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/Qt/labs/sharedimage/sharedimageplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (virtualkeyboardplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQuick/VirtualKeyboard/Core/virtualkeyboardplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 QML 模块 (workerscriptplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 QML 模块（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/qml/QtQml/WorkerScript/workerscriptplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (PySidePlugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/designer/PySidePlugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qaxwidget.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/designer/qaxwidget.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qcertonlybackend.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/tls/qcertonlybackend.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qdirect2d.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/platforms/qdirect2d.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qdslintplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmllint/qdslintplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qgif.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qgif.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qicns.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qicns.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qico.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qico.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qjpeg.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qjpeg.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qlottievectorimage.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/vectorimageformats/qlottievectorimage.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qminimal.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/platforms/qminimal.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_debugger.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_debugger.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_inspector.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_inspector.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_local.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_local.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_messages.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_messages.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_native.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_native.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_nativedebugger.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_nativedebugger.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_preview.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_preview.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_profiler.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_profiler.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_quick3dprofiler.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_quick3dprofiler.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_quickeventreplay.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_quickeventreplay.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_quickprofiler.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_quickprofiler.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_server.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_server.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmldbg_tcp.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmltooling/qmldbg_tcp.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qmodernwindowsstyle.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/styles/qmodernwindowsstyle.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qnetworklistmanager.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/networkinformation/qnetworklistmanager.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qoffscreen.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/platforms/qoffscreen.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qopensslbackend.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/tls/qopensslbackend.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qpdf.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qpdf.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qquickwidget.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/designer/qquickwidget.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qschannelbackend.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/tls/qschannelbackend.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsqlibase.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/sqldrivers/qsqlibase.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsqlite.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/sqldrivers/qsqlite.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsqlmimer.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/sqldrivers/qsqlmimer.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsqloci.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/sqldrivers/qsqloci.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsqlodbc.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/sqldrivers/qsqlodbc.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsqlpsql.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/sqldrivers/qsqlpsql.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsvg.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qsvg.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qsvgicon.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/iconengines/qsvgicon.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qtga.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qtga.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qtiff.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qtiff.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qtuiotouchplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/generic/qtuiotouchplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qtvirtualkeyboardplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (quicklintplugin.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/qmllint/quicklintplugin.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qwbmp.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qwbmp.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qwebengineview.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/designer/qwebengineview.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qwebp.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/imageformats/qwebp.dll"
+      ]
+    },
+    {
+      "name": "Qt6 插件 (qwindows.dll)",
+      "version": "6.11.2",
+      "kind": "native",
+      "license": "LGPL-3.0-only",
+      "license_raw": "LGPL-3.0-only",
+      "status": "NOTICE",
+      "detail": "动态链接，保留声明即可闭源",
+      "direct": true,
+      "role": "运行时 · Qt6 插件（PySide6 携带）",
+      "homepage": "https://www.qt.io/",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/PySide6/plugins/platforms/qwindows.dll"
+      ]
+    },
+    {
+      "name": "SpatiaLite",
+      "version": "",
+      "kind": "native",
+      "license": "MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later",
+      "license_raw": "MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later",
+      "status": "NOTICE",
+      "detail": "动态链接 / 未修改使用，保留声明即可闭源",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/spatialite-d8c2d6ee9614ee788aabd66cd9557079.dll",
+        "python/Lib/site-packages/rasterio.libs/spatialite-f92cff5c471475544736d0adc77c68a9.dll"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "version": "",
+      "kind": "native",
+      "license": "Public-Domain",
+      "license_raw": "Public-Domain",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/sqlite3-a62ef28d840863c87680b78bee9c5ae7.dll",
+        "python/Lib/site-packages/pyproj.libs/sqlite3-9415ebc42378ab15b741623972c45846.dll",
+        "python/Lib/site-packages/rasterio.libs/sqlite3-83948bf6c20798e244ca12b8b0b54d05.dll"
+      ]
+    },
+    {
+      "name": "SZIP (HDF5 随附)",
+      "version": "",
+      "kind": "native",
+      "license": "SZIP",
+      "license_raw": "SZIP",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/szip-e59ebcd7c483ce8d26abe5005a2dd20d.dll"
+      ]
+    },
+    {
+      "name": "tinyxml2",
+      "version": "",
+      "kind": "native",
+      "license": "Zlib",
+      "license_raw": "Zlib",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/tinyxml2-d39e898a1f45f015e948ab66e516ad99.dll"
+      ]
+    },
+    {
+      "name": "XZ Utils (liblzma)",
+      "version": "",
+      "kind": "native",
+      "license": "0BSD",
+      "license_raw": "0BSD",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/liblzma-72d8c4b09cb84a63a20b48cc6de0e301.dll",
+        "python/Lib/site-packages/pyproj.libs/liblzma-3c4c8780fcad6ce56344d2b5594bda5b.dll",
+        "python/Lib/site-packages/rasterio.libs/liblzma-036cf26aab4d0c1148c1b168811c2cce.dll"
+      ]
+    },
+    {
+      "name": "zlib",
+      "version": "",
+      "kind": "native",
+      "license": "Zlib",
+      "license_raw": "Zlib",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/pyogrio.libs/z-be29236fe53451bd4768a6900713c673.dll",
+        "python/Lib/site-packages/pyproj.libs/zlib1-985e9fefa27bf900be8e4df7dcc97287.dll",
+        "python/Lib/site-packages/rasterio.libs/z-5c38e202e8268408352bf6e3cadbdc6d.dll"
+      ]
+    },
+    {
+      "name": "Zstandard",
+      "version": "",
+      "kind": "native",
+      "license": "BSD-3-Clause",
+      "license_raw": "BSD-3-Clause",
+      "status": "OK",
+      "detail": "宽松许可，保留声明即可",
+      "direct": false,
+      "role": "wheel 内捆绑原生库",
+      "homepage": "",
+      "license_files": [],
+      "paths": [
+        "python/Lib/site-packages/rasterio.libs/zstd-665e50e3bd378ef19c7aab1b02410823.dll"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "linestyles": [
+    {
+      "id": "solid",
+      "name": "实线",
+      "pattern": []
+    },
+    {
+      "id": "dashed",
+      "name": "虚线",
+      "pattern": [
+        4.0,
+        2.0
+      ]
+    }
+  ]
+}

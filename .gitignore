@@ -1,0 +1,24 @@
+# 自带的 Python 3.14 运行环境（不入库，用 requirements.txt 复现）
+python/
+
+# 生成物
+build/
+dist/
+*.qm
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 运行期
+logs/
+*.log

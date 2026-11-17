@@ -1,0 +1,31 @@
+[tool.pytest.ini_options]
+# 2026-09-20：`tests/` 已于 2026-09-15 的清理中移除，且全仓已无
+# golden / perf 基线副本 ⇒ 这里**不再指向任何目录**（原值：
+# `testpaths = ["tests"]`）。背景见 `项目里程碑与冗余审计-2026-09-20.md` §4.5。
+# `-p no:unraisableexception`：**必须**。该插件在 `pytest_unconfigure` 里做一次
+# "hard GC"（`gc_collect_harder`），实测那次强制回收里进程**直接崩**
+# （Windows `0xC0000409` 栈溢出 / `0xC0000374` 堆损坏；faulthandler 抓到的栈
+# 就停在 `_pytest/unraisableexception.py::gc_collect_harder`）。
+# 症状极具误导性：**用例全过（进度行全是点）却拿不到汇总行**，
+# 看起来像"套件被中途杀掉"。关掉它只少报"不可捕获异常"，换退出稳定。
+addopts = "-q --strict-markers -p no:unraisableexception"
+# 2026-09-20：原 `markers`（golden / perf / gui / arch / compliance）
+# 随 `tests/` 一并作废，已删除。
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+files = ["ggis"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "ggis.ui.*,ggis.render.*"
+strict = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["B008"]
